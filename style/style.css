@@ -1,1 +1,16 @@
-.card { width: 150px; height: 150px}
+.card { width: 150px; height: 150px;}
+ #gameboard {
+
+    margin: auto;
+ }  
+@font-face{
+	font-family: frnkstnn;
+    src: url(C:\Users\User\Desktop\DOMACA\pexeso-master\frnkstnn.ttf);
+}
+
+
+h1 {
+  font-size: 200%;
+  font-family: frnkstnn;
+  text-align: center;
+}

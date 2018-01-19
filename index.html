@@ -1,11 +1,29 @@
 <!DOCTYPE html>
 <HTML>
-	<HEAD CHARSET="UTF-8" >
-	<TITLE> PEXESO </TITLE>
-	<LINK REL="stylesheet" HREF="style/style.css">
+	<HEAD>
+	
+	<META CHARSET="UTF-8"></META>
+	<TITLE >Pexeso </TITLE><script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<LINK REL="stylesheet" HREF="style/style.css"></LINK>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></link>
 	<SCRIPT SRC="script/script.js"></SCRIPT>
 </HEAD>
+	
 	<BODY>
+	<body style="background: url(loga/log.jpg); background-size: cover;"> 
+	
+	<div class="row">
+		
+		<div class="col-md-2">
+	
+		<div class="playersname" ondblclick="changeName(1)" id="player1">PLAYER 1</div>
+	<div class="score" ID="score1">SCORE : 0</div>
+	<div><TABLE id="tableP1"></TABLE></div>
+	</div>
+		
+		<div class="col-md-8">
+		<h1>P e x e s o</h1><br>
 		<DIV id="gameboard">
 			<TABLE width="640" border="0">	
 			<TR><!-- 1. row -->
@@ -34,5 +52,18 @@
 			</TR>
 			</TABLE>
 			</DIV>
+			
+			</div>
+			
+			<div class="col-md-2">  </div>
+			
+			<div class="playersname"ondblclick="changeName(2)" id="player2">PLAYER 2</div>
+			<div class="score" ID="score2">SCORE : 0</div>
+			<div><table id="tableP2"></table></div>
+
+			
+			
+			</div>
+			
 	</BODY>
 </HTML>
